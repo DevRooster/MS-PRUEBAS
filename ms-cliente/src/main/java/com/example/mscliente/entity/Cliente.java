@@ -16,13 +16,8 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String nombre;
-    private String dni;
-    private String domicilio;
-    private Number telefono;
-    private BigDecimal limite;
-    private String fecha;
-    private String compras;
-    private Number abono;
+    private String usuario;
+    private String clave;
+    private String correo;
 
 }
