@@ -6,10 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.util.Date;
-
 @Entity
 @Data
 public class Cliente {

@@ -2,7 +2,6 @@ package com.example.mscliente.service.impl;
 
 import com.example.mscliente.entity.Cliente;
 import com.example.mscliente.repository.ClienteRepository;
-
 import com.example.mscliente.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
