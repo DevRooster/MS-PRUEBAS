@@ -1,4 +1,3 @@
-
 server:
   port: 7070
 
@@ -10,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/EnriqueMV18/MS-PRUEBAS.git # ruta del repositorio git
+          uri: https://github.com/EnriqueMV18/EVA-1RA-U.git # ruta del repositorio git
           searchPaths: config-data
           #username:
           #password:
