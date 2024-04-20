@@ -1,4 +1,4 @@
-package com.example.mscatalogo.entity;
+package com.example.msdocente.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,10 +8,12 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Categoria {
+public class Docente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String nombre;
+    private String apellido;
+    private String DNI;
 
 }

@@ -1,4 +1,4 @@
-package com.example.mscatalogo;
+package com.example.msdocente;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -8,18 +8,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class MsCatalogoApplication {
+public class MsDocenteApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsCatalogoApplication.class, args);
+        SpringApplication.run(MsDocenteApplication.class, args);
     }
 
     @Bean
     public OpenAPI custumOpenAPI() {
         return new OpenAPI().info(new Info()
-                .title("OPEN API MICROSERVICIO CATÁLOGO")
+                .title("OPEN API MICROSERVICIO DOCENTE")
                 .version("0.0.1")
-                .description("servicio web catalogo")
+                .description("servicio web docente")
                 .termsOfService("http://swagger.io/terms")
                 .license(new License().name("Apache 2.0").url("http://springdoc.org"))
         );
