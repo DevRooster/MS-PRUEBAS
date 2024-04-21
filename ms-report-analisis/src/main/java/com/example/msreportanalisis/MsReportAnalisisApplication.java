@@ -1,4 +1,4 @@
-package com.example.msadmatricula;
+package com.example.msreportanalisis;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -8,17 +8,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class MsAdmatriculaApplication {
+public class MsReportAnalisisApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsAdmatriculaApplication.class, args);
+		SpringApplication.run(MsReportAnalisisApplication.class, args);
 	}
 	@Bean
     public OpenAPI custumOpenAPI() {
         return new OpenAPI().info(new Info()
-                .title("OPEN API MICROSERVICIO ADMINISTRACION DE MATRICULAS")
+                .title("OPEN API MICROSERVICIO REPORTES Y ANALISIS")
                 .version("0.0.1")
-                .description("servicio web administracion de matriculas")
+                .description("servicio web reportes y analisis")
                 .termsOfService("http://swagger.io/terms")
                 .license(new License().name("Apache 2.0").url("http://springdoc.org"))
         );
