@@ -31,11 +31,12 @@ const Navbar = () => {
                 {/* Navbar Collapse */}
                 <div className="collapse navbar-collapse mt-4" id="navbarNav">
                     <ul className="navbar-nav flex-column align-items-center w-100">
-                        <NavItem label="Home" to="/dashboard" />
-                        <NavItem label="Perfil" to="/perfil" />
                         <NavItem label="Matricula" to="/matricula" />
+                        <NavItem label="Horario" to="/horario" />
                         <NavItem label="Docente" to="/docente" />
+                        <NavItem label="Curso" to="/curso" />
                         <NavItem label="Estudiante" to="/estudiante" />
+                        <NavItem label="Historial" to="/historial" />
                         <NavItem label="Asistencia" to="/asistencia" />
                         <NavItem label="Reporte" to="/reporte" />
                     </ul>
